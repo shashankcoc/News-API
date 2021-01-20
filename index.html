@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News API</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="s01">
+      <!-- Post form method to send details back to the app.js -->
+        <form action="/" method="POST">
+          <fieldset>
+            <legend>Discover the Latest News</legend>
+            <h3 class="footerHeading">**For Location write only country codes e.g.India(In),United States(us) </h3>
+            <h3 class="footerHeading">**For Category you can use e.g. business,technology etc. </h3>
+          </fieldset>
+          <div class="inner-form">
+            <div class="input-field first-wrap">
+              <input name="country" id="search" type="text" placeholder="Enter the Location ?" />
+            </div>
+            <div class="input-field second-wrap">
+              <input name="category" id="location" type="text" placeholder="Category" />
+            </div>
+            <div class="input-field third-wrap">
+              <button class="btn-search" type="submit">Search</button>
+            </div>
+          </div>
+        </form>
+    </div>
+
+</body>
+</html>
